@@ -8,17 +8,9 @@ This project demonstrates an end-to-end **Medallion Architecture** pipeline on *
 
 ## Architecture
 
-Raw CSV (Bronze)
-│
-▼
-Cleaned & Typed (Silver)
-│
-▼
-Aggregated Metrics (Gold)
-│
-▼
-Analysis / BI / Reporting
-
+`
+Raw CSV (Bronze) -> Cleaned & Typed (Silver) -> Aggregated Metrics (Gold) -> Analysis / BI / Reporting
+`
 
 **Azure Services & Tools Used:**
 
@@ -168,16 +160,6 @@ During development, the following issues were encountered and resolved:
 
 ---
 
-## Repository Structure (default)
-
-project_root/
-├── notebooks/
-│ ├── bronze_silver.ipynb
-│ └── gold.ipynb
-├── data/ # optional sample files
-└── README.md
-
----
 
 **Author:** Darren Davy  
 **Project Status:** Complete Bronze → Silver → Gold pipeline with cleaned and aggregated datasets, ready for orchestration via ADF.  
