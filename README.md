@@ -29,11 +29,11 @@ Raw CSV (Bronze) -> Cleaned & Typed (Silver) -> Aggregated Metrics (Gold) -> Ana
 
 ## Data Flow
 
-1. **Bronze Layer (Raw)**
+1. 🥉 **Bronze Layer (Raw)**
    - Ingest raw CSV file from ADLS.
    - Handle inconsistent formatting issues (e.g., different date formats).
 
-2. **Silver Layer (Cleaned)**
+2. 🥈 **Silver Layer (Cleaned)**
    - Apply schema enforcement and type conversion:
      - `Order Date` converted to proper timestamp.
      - `Sales`, `Profit`, `Discount` ensured to be numeric.
@@ -42,7 +42,7 @@ Raw CSV (Bronze) -> Cleaned & Typed (Silver) -> Aggregated Metrics (Gold) -> Ana
      - Ignored invalid or inconsistent rows.
    - Store cleaned data in **Parquet** format in the Silver container.
 
-3. **Gold Layer (Aggregated)**
+3. 🥇 **Gold Layer (Aggregated)**
    - Aggregate metrics by `Region`, `Category`, or `State`.
    - Produce analysis-ready datasets for BI or reporting.
    - Store in **Parquet** format in the Gold container.
