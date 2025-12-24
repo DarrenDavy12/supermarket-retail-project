@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+retail_venv/
+.env/
+
+# Logs
+*.log
+
+# Databricks files (optional)
+dbfs:/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# data files
+data/

@@ -1,0 +1,7 @@
+pandas==2.1.0
+pyarrow==12.0.1
+pyspark==3.4.1
+kaggle==1.5.16
+azure-storage-blob==12.26.0
+azure-mgmt-datafactory==2.1.0
+
