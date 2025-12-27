@@ -159,8 +159,6 @@ During development, the following issues were encountered and resolved:
 - Implement **data quality checks** at each Medallion stage.
 
 ---
-
-
-**Author:** Darren Davy  
+ 
 **Project Status:** Complete Bronze → Silver → Gold pipeline with cleaned and aggregated datasets, ready for orchestration via ADF.  
 **Tools & Services Used:** Azure Databricks, ADLS Gen2, Azure Data Factory, PySpark, Python, Spark SQL, Parquet, Azure Key Vault (planned, couuld not apply because of databricks tier 14-day-trial doesnt allow secrets/scope), GitHub, VS Code (optional, I did for project structure).
