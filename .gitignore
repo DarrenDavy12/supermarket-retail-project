@@ -23,8 +23,13 @@ Thumbs.db
 
 # data files
 data/
+*.csv
+*.parquet
 
 # Ignore sensitive notebook screenshots
 *.png
 *.jpg
 *.jpeg
+
+
+
